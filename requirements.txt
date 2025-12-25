@@ -6,3 +6,6 @@ SQLAlchemy==2.0.30
 psycopg2-binary==2.9.9
 waitress==3.0.2
 pandas==2.2.2
+python-docx==0.8.11
+qrcode==7.3
+reportlab==3.6.12

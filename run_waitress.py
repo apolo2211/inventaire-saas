@@ -9,7 +9,3 @@ if __name__ == "__main__":
     print("⚡ Serveur Inventaire SaaS démarrage en cours…")
     # Écoute sur toutes les interfaces pour que localhost fonctionne
     serve(app, host="0.0.0.0", port=5000)
-from waitress import serve
-from app import app
-# Serveur sur toutes les interfaces pour le cloud ou local
-serve(app, host="0.0.0.0", port=5000)
